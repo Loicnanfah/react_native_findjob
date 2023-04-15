@@ -1,3 +1,5 @@
+/** @format */
+
 import ScreenHeaderBtn from "./common/header/ScreenHeaderBtn";
 
 // home screen
@@ -25,5 +27,5 @@ export {
   JobAbout,
   JobFooter,
   Specifics,
-  NearbyJobCard
+  NearbyJobCard,
 };

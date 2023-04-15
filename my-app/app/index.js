@@ -12,7 +12,7 @@ import {
   Welcome,
 } from "../components";
 
-const index = () => {
+const Home = () => {
   const router = useRouter();
   const [searchTerm, setSearchTerm] = useState("");
 
@@ -31,6 +31,7 @@ const index = () => {
           headerTitle: "",
         }}
       />
+
       <ScrollView showsVerticalScrollIndicator={false}>
         <View
           style={{
@@ -56,4 +57,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Home;
